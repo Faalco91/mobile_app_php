@@ -9,12 +9,17 @@
 </style>
 
 <div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
+    <h1>Hello User ! ✅</h1>
 
     This friendly message is coming from:
     <ul>
         <li>Your controller at <code>/Users/amarirouail/Desktop/Projets_Perso/mobile_app/src/Controller/AuthController.php</code></li>
         <li>Your template at <code>/Users/amarirouail/Desktop/Projets_Perso/mobile_app/templates/auth/index.html.twig</code></li>
+        {% for users in logins %}
+            <li> 
+                Welcome {{users.getUsername()}} !
+            </li>
+        {% endfor %}
     </ul>
 </div>
 {% endblock %}
