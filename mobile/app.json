@@ -23,6 +23,18 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4236787b-c63c-4813-95c8-61de95e42fa5"
+      }
+    },
+    "owner": "faalco_91",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/4236787b-c63c-4813-95c8-61de95e42fa5"
     }
   }
 }
